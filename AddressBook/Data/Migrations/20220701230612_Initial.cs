@@ -16,7 +16,6 @@ namespace AddressBook.Data.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     FirstName = table.Column<string>(type: "text", nullable: false),
                     LastName = table.Column<string>(type: "text", nullable: false),
-                    Age = table.Column<int>(type: "integer", nullable: false),
                     Address1 = table.Column<string>(type: "text", nullable: false),
                     Address2 = table.Column<string>(type: "text", nullable: true),
                     City = table.Column<string>(type: "text", nullable: true),

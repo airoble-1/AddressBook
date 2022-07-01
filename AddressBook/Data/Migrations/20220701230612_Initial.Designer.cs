@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AddressBook.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220701163712_Initial")]
+    [Migration("20220701230612_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,9 +34,6 @@ namespace AddressBook.Data.Migrations
 
                     b.Property<string>("Address2")
                         .HasColumnType("text");
-
-                    b.Property<int>("Age")
-                        .HasColumnType("integer");
 
                     b.Property<string>("City")
                         .HasColumnType("text");

@@ -33,9 +33,6 @@ namespace AddressBook.Data.Migrations
                     b.Property<string>("Address2")
                         .HasColumnType("text");
 
-                    b.Property<int>("Age")
-                        .HasColumnType("integer");
-
                     b.Property<string>("City")
                         .HasColumnType("text");
 

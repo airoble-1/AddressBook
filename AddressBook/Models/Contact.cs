@@ -13,9 +13,8 @@ namespace AddressBook.Models
         
         [Required]
         [Display(Name = "Last Name")]
-        public string LastName { get; set; }    
+        public string LastName { get; set; }
 
-        public int Age { get; set; }
         [Required]
         public string Address1 { get; set; }
         public string Address2 { get; set; }
